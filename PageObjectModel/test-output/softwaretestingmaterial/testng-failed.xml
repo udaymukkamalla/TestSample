@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [softwaretestingmaterial]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="com.planittesting.PageObjectModel.LoginPageTests">
+        <methods>
+          <include name="setup"/>
+          <include name="signIn"/>
+        </methods>
+      </class> <!-- com.planittesting.PageObjectModel.LoginPageTests -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [softwaretestingmaterial] -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-06-21T05:35:59Z" name="Default suite" finished-at="2019-06-21T05:36:20Z" duration-ms="20623">
+    <groups>
+    </groups>
+    <test started-at="2019-06-21T05:35:59Z" name="Default test" finished-at="2019-06-21T05:36:20Z" duration-ms="20623">
+      <class name="com.planittesting.PageObjectModel.SeleniumDatePickerPageTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.planittesting.PageObjectModel.SeleniumDatePickerPageTests@c86b9e3]" started-at="2019-06-21T05:35:59Z" name="setup" finished-at="2019-06-21T05:36:12Z" duration-ms="12831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectDateAndTime()[pri:0, instance:com.planittesting.PageObjectModel.SeleniumDatePickerPageTests@c86b9e3]" started-at="2019-06-21T05:36:12Z" name="selectDateAndTime" finished-at="2019-06-21T05:36:20Z" duration-ms="7764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDateAndTime -->
+      </class> <!-- com.planittesting.PageObjectModel.SeleniumDatePickerPageTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
