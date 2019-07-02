@@ -1,4 +1,4 @@
-package net.serenitybdd.sample.steps;
+	package net.serenitybdd.sample.steps;
 
 import net.thucydides.core.annotations.Steps;
 
@@ -67,6 +67,11 @@ public class ExecutionSteps {
     @Then("User clicks on CarAndAccessorie link")
     public void thenUserClicksOnCarAndAccessorieslink() {
     	anna.clickCarAndAccessorieslink();
+    }
+    
+    @Then("User clicks on Chevrolet option")
+    public void thenUserClicksOnChevroletOption() {
+    	anna.clickChevroletOption();
     }
 
 }

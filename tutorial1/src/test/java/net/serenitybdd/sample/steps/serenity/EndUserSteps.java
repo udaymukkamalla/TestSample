@@ -3,6 +3,7 @@ package net.serenitybdd.sample.steps.serenity;
 import net.serenitybdd.sample.pages.AllPartsAndAccessories;
 import net.serenitybdd.sample.pages.CarAndTruckPartsPage;
 import net.serenitybdd.sample.pages.DictionaryPage;
+import net.serenitybdd.sample.pages.ElectricVehiclesPartsPage;
 import net.serenitybdd.sample.pages.HomePage;
 import net.serenitybdd.sample.pages.MotorsPage;
 import net.thucydides.core.annotations.Step;
@@ -18,6 +19,7 @@ public class EndUserSteps {
     MotorsPage motorspage;
     AllPartsAndAccessories allpartsandaccessories;
     CarAndTruckPartsPage carandtruckpartspage;
+    ElectricVehiclesPartsPage electricvehiclespartspage;
     
     
   @Step
@@ -70,6 +72,11 @@ public class EndUserSteps {
     @Step
     public void clickCarAndAccessorieslink() {
     	carandtruckpartspage.clickCarAndTruckAccessories();
+    }
+    
+    @Step
+    public void clickChevroletOption() {
+    	electricvehiclespartspage.clickChevrolet();
     }
      
 }

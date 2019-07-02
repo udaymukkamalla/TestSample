@@ -6,7 +6,8 @@ Feature: Verification of Motors screen in ebay
     #Then User clicks on PartsAndAccessories link
     Then User clicks on AllPartsAndAccessories link
     Then User clicks on CarAndTruck Parts link
-    #Then User clicks on ElectricVehicleParts link
-    Then User clicks on CarAndAccessorie link
+    Then User clicks on ElectricVehicleParts link
+    #Then User clicks on CarAndAccessorie link
+    Then User clicks on Chevrolet option
 
   
